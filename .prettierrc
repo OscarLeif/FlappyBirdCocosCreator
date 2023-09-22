@@ -1,0 +1,10 @@
+{
+  "singleQuote": true,  // Use single quotes
+  "semi": true,         // Use semicolons at the end of statements
+  "tabWidth": 4,        // Use a 4-space indentation (or your preferred value)
+  "trailingComma": "all",
+  "bracketSpacing": false,  // No spaces inside object literals
+  "jsxBracketSameLine": true, // Place > of JSX elements on the same line as the last prop
+  "arrowParens": "always",   // Always include parentheses for arrow function parameters
+  "endOfLine": "auto" // Use platform-specific line endings (CRLF on Windows, LF on macOS/Linux)
+}

@@ -222,7 +222,6 @@ export class Game extends Component
         
         if(count>3)
         {
-            AndroidNative.showInterstitial();
             count = 0;
         }        
         localStorage.setItem("countGamePlay", count.toString());

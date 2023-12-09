@@ -142,5 +142,8 @@
       "value": false,
       "version": ""
     }
+  },
+  "macroConfig": {
+    "ENABLE_WEBGL_ANTIALIAS": false
   }
 }

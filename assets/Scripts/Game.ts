@@ -5,6 +5,7 @@ import { Bird } from './Bird';
 import { Scroll } from './Scroll';
 import { PipePool } from './PipePool';
 import { AndroidNative } from './Android/AndroidNative';
+import { FlashUI } from './UI/FlashUI';
 
 @ccclass('Game')
 export class Game extends Component
@@ -53,6 +54,9 @@ export class Game extends Component
 
     @property({ type: RichText, tooltip: "Add labelBestScore node", })
     public labelBestScore: RichText = null;
+
+    @property({type: FlashUI, tooltip: "The Flash Screen" })
+    public FlashUI: FlashUI;    
 
     protected onLoad (): void
     {
@@ -170,6 +174,8 @@ export class Game extends Component
     {
         if (this.isOver == false)
         {
+            this.FlashUI.Flash();
+            
             this.isOver = true;
             this.Scroll.StopScroll();
             this.AudioSource.playOneShot(this.hitSound, 1);

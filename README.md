@@ -5,6 +5,8 @@ This version support Keyboard, mouse and Gamepad (Android).
 The support for the Gamepad on android still have some issues I hope the next
 revision of Cocos creator will improve this not all buttons are mapped.
 
-To open the project you will need cocos creator 3.8.
+To open the project you will need cocos creator 3.8.+
+
+Game: https://oscarleif.github.io/Cocos/FlappyBird/index.html
 
 Oscar Leif.

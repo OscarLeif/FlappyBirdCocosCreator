@@ -6,7 +6,8 @@
       "height": 512,
       "fitWidth": false,
       "fitHeight": true
-    }
+    },
+    "highQuality": false
   },
   "custom_joint_texture_layouts": [],
   "physics": {

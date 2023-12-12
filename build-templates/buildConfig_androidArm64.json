@@ -1,0 +1,90 @@
+{
+  "name": "FlappyCocosArm64",
+  "server": "",
+  "platform": "android",
+  "buildPath": "project://build",
+  "debug": false,
+  "md5Cache": false,
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "polyfills": {
+    "asyncFunctions": false
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": false,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "2a4a8578-642a-4e0a-998f-9f0376dd4263",
+  "outputName": "android-Arm64",
+  "taskName": "android-Arm64",
+  "scenes": [
+    {
+      "url": "db://assets/Scenes/game.scene",
+      "uuid": "0fbc11a6-b4d2-4ed0-a3e4-e4e86526589d"
+    },
+    {
+      "url": "db://assets/Scenes/main.scene",
+      "uuid": "2a4a8578-642a-4e0a-998f-9f0376dd4263"
+    }
+  ],
+  "packages": {
+    "engine": {
+      "cleanupImageCache": "inheritProjectSetting",
+      "__version__": "1.0.8"
+    },
+    "android": {
+      "packageName": "ata.games.flappybird",
+      "resizeableActivity": true,
+      "maxAspectRatio": "2.4",
+      "orientation": {
+        "portrait": true,
+        "upsideDown": false,
+        "landscapeRight": true,
+        "landscapeLeft": true
+      },
+      "apiLevel": 33,
+      "appABIs": [
+        "arm64-v8a"
+      ],
+      "useDebugKeystore": true,
+      "keystorePath": "",
+      "keystorePassword": "",
+      "keystoreAlias": "",
+      "keystoreAliasPassword": "",
+      "appBundle": false,
+      "androidInstant": false,
+      "inputSDK": false,
+      "remoteUrl": "",
+      "sdkPath": "",
+      "ndkPath": "",
+      "javaHome": "",
+      "javaPath": "",
+      "renderBackEnd": {
+        "vulkan": false,
+        "gles3": true,
+        "gles2": true
+      },
+      "swappy": false,
+      "__version__": "1.0.1"
+    },
+    "cocos-service": {
+      "configID": "7fa631",
+      "services": [],
+      "__version__": "3.0.7"
+    },
+    "native": {
+      "encrypted": true,
+      "xxteaKey": "b3bCCzhkNArJ1bwD",
+      "compressZip": true,
+      "JobSystem": "none",
+      "__version__": "1.0.2"
+    }
+  },
+  "__version__": "1.3.7",
+  "buildMode": "normal"
+}
